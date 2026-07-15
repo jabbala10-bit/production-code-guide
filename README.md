@@ -6,11 +6,11 @@ A practical, checklist-driven reference for writing production-quality code in *
 
 | Language | Guide | Core Tension It Solves |
 |---|---|---|
-| 🐍 Python | [`production_python_guide.md`](./production_python_guide.md) | Dynamic typing → discipline via types, tests, and tooling |
-| ☕ Java | [`production_java_guide.md`](./production_java_guide.md) | Verbosity/legacy patterns → modern, lean, well-tested design |
-| 🐹 Go | [`production_go_guide.md`](./production_go_guide.md) | Simplicity by design → not cutting corners on errors/concurrency |
-| 🦀 Rust | [`production_rust_guide.md`](./production_rust_guide.md) | Compiler already prevents bugs → don't fight it with shortcuts |
-| 🟦 TypeScript | [`production_typescript_guide.md`](./production_typescript_guide.md) | Types vanish at runtime → validate the boundary |
+| 🐍 Python | [`production_python_guide.md`](./python.md) | Dynamic typing → discipline via types, tests, and tooling |
+| ☕ Java | [`production_java_guide.md`](./java.md) | Verbosity/legacy patterns → modern, lean, well-tested design |
+| 🐹 Go | [`production_go_guide.md`](./go.md) | Simplicity by design → not cutting corners on errors/concurrency |
+| 🦀 Rust | [`production_rust_guide.md`](./rust.md) | Compiler already prevents bugs → don't fight it with shortcuts |
+| 🟦 TypeScript | [`production_typescript_guide.md`](./typescript.md) | Types vanish at runtime → validate the boundary |
 
 Each guide follows the same structure: project layout, code quality, error handling, logging, config, testing, docs, dependencies, security, performance, CI/CD, design principles, and a pre-deployment checklist — so you can jump to the same section across languages and compare directly.
 
