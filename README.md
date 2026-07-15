@@ -11,7 +11,7 @@ A practical, checklist-driven reference for writing production-quality code in *
 | 🐹 Go | [`production_go_guide.md`](./production_go_guide.md) | Simplicity by design → not cutting corners on errors/concurrency |
 | 🦀 Rust | [`production_rust_guide.md`](./production_rust_guide.md) | Compiler already prevents bugs → don't fight it with shortcuts |
 | 🟦 TypeScript | [`production_typescript_guide.md`](./production_typescript_guide.md) | Types vanish at runtime → validate the boundary |
-| ⚙️ C++ | [`production_cpp_guide.md`](./production_cpp_guide.md) | Maximum control, zero safety net → RAII and tooling as the substitute |
+| ⚙️ C++ | [`production_cpp_guide.md`](./cpp_guide.md) | Maximum control, zero safety net → RAII and tooling as the substitute |
 
 Each guide follows the same structure: project layout, code quality, error handling, logging, config, testing, docs, dependencies, security, performance, CI/CD, design principles, and a pre-deployment checklist — so you can jump to the same section across languages and compare directly.
 
